@@ -1,0 +1,20 @@
+name: idea_platform
+description: Платформа для создания и реализации идей с элементами геймификации.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  supabase_flutter: ^2.0.0 # Для бесплатной авторизации и базы данных
+  google_fonts: ^6.1.0 # Для красивых шрифтов как в Figma
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
